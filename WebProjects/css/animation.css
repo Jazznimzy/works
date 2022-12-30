@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ /*.box{
+    width: 10rem;
+    height: 10rem;
+    background: red;
+    margin-top: 10rem;
+    border-radius: 50%;
+    transition: ease-in-out .5s;
+    border: 1rem solid grey;
+    
+}
+.box:hover{
+    transform: translateY(-10px) scale(1.1);
+}
+.text{
+    font-size: 1rem;
+    color: blue;
+    text-align: center;
+    transition: all 1s;
+    transition: ease-in;
+    margin-top: 2rem;
+}
+.para{
+    font-size: .4rem;
+    text-align: center;
+    margin-top: 5rem;
+    color: yellow;
+}
+.text:hover{
+    font-size: 5rem;
+    color: green;
+}
+
+.button-div{
+    width: 10rem;
+    height: 10rem;
+}
+.button{
+    width: 100%;
+    height: 100%;
+    background: rgb(121, 20, 20);
+    border: none;
+    box-shadow: inset 0 0 0 0 red;
+    transition: ease-out .3s;
+    
+}
+.button:hover{
+    box-shadow: inset 0 1rem 0 0 red;
+    cursor: pointer;
+}*/
+.goat{
+    background: rgb(252, 252, 252);
+}
+.dark{
+    background: black;
+}
+.dark-mode{
+    width: 30%;
+    height: 10rem;
+}
+#checkboxx{
+    
+}
+#checkboxx:checked + .check .toggle{
+    transform: translateX(10rem);
+}
+.check{
+    width: 13rem;
+    height: 3.5rem;
+    background: black;
+    display: block;
+    border-radius: 3rem;
+    position: relative;
+    
+}
+
+.toggle{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: white;
+    position: absolute;
+    left: .2rem;
+    bottom: .5rem;
+    border-radius: 50%;
+    transition: ease .3s;
+}

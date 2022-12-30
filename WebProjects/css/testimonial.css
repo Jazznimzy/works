@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(212, 212, 241);
+    height: 100vh;
+}
+.container{
+    width: 69%;
+    height: 30rem;
+    background: rgb(212, 212, 241);
+    display: flex;
+}
+.left-hand{
+    width: 70%;
+    height: 100%;
+}
+.top-section{
+    width: 100%;
+    height: 50%;
+    padding: 0 5px 5px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-left-section{
+    width: 64%;
+    height: 100%;
+    background: hsl(263, 55%, 52%);
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.top-right-section{
+    width: 34%;
+    height: 100%;
+   background:  hsl(217, 19%, 35%);
+   border-radius: 5px;
+   padding: 10px 15px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+}
+.header-image img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.header-text{
+    padding-left: .8rem;
+}
+.candidate-name{
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgb(178, 182, 185);
+}
+.candidate-title{
+    font-size: .8rem;
+    color:hsl(0, 0%, 81%);
+}
+.tpl-paragraph-one{
+    width: 100%;
+    height: 4rem;
+}
+.daniel-first-paragraph{
+    font-weight: 500;
+    color:  hsl(210, 46%, 95% );
+}
+.tpl-paragraph-two{
+    width: 100%;
+    height: 8rem;
+}
+.daniel-second-paragraph{
+    font-size: .75rem;
+    color:hsl(0, 0%, 81%);
+}
+.tpr-paragraph-one{
+    width: 100%;
+    height: 3rem;
+}
+.jonathan-first-paragraph{
+    font-size: 17px;
+    font-weight: 500;
+    color:  hsl(210, 46%, 95% );
+}
+.tpr-paragraph-two{
+    width: 100%;
+    height: 4rem;
+    padding-top: 1rem;
+}
+.jonathan-second-paragraph{
+    font-size: 13px;
+    color:hsl(0, 0%, 81%);
+}   
+.bottom-section{
+    width: 100%;
+    height: 50%;
+    padding: 5px 5px 0 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-left-section{
+    width: 34%;
+    height: 100%;
+    background: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.btl-paragraph-one{
+    width: 100%;
+    height: 4rem;
+}
+.jeanette-first-paragraph{
+    font-size: 17px;
+    font-weight: 500;
+    color:  rgb(123, 124, 126);
+}
+.btl-paragraph-two{
+    width: 100%;
+    height: 4rem;
+    padding-top: 1rem;
+}
+.jeanette-second-paragraph{
+    font-size: 15px;
+    color:hsl(0, 0%, 81%);
+}
+.bottom-right-section{
+    width: 64%;
+    height: 100%;
+    background: hsl(219, 29%, 14%);
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.btr-paragraph-one{
+    width: 100%;
+    height: 4rem;
+}
+.patrick-first-paragraph{
+    font-weight: 500;
+    color:  hsl(210, 46%, 95% );
+}
+.btr-paragraph-two{
+    width: 100%;
+    height: 4rem;
+}
+.patrick-second-paragraph{
+    font-size: .75rem;
+    color:hsl(0, 0%, 81%);
+}
+.right-hand{
+    background: #fff;
+    width: 25%;
+    height: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+.rh-paragraph-one{
+    width: 100%;
+    height: 10rem;
+}
+.kira-first-paragraph{
+    font-size: 1rem;
+    color:  rgb(144, 146, 148);
+}
+.rh-paragraph-two{
+    width: 100%;
+    height: 20rem;
+}
+.kira-second-paragraph{
+    font-size: .8rem;
+    padding-top: 1rem;
+    color:hsl(0, 4%, 73%);
+}
+
+    

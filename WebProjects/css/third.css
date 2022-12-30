@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Koulen&family=Outfit:wght@100&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background:  hsl(233, 47%, 7%);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 70%;
+    height: 23rem;
+    background: white;
+    display: flex;
+}
+.text-part{
+   
+    width: 50%;
+    height: 100%;
+    padding: 40px 40px;
+    background: hsl(244, 38%, 16%);
+    
+}
+.paragraph{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Koulen', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    font-style: inherit;
+    font-weight: bolder;
+    display: flex;
+    margin-bottom: 30px;
+}
+.colored{
+    margin-left: 5px;
+    color: hsl(277, 45%, 41%);
+}
+.normal{
+    margin-left: 5px;
+}
+.paragraph-two{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'EB Garamond', serif;
+    font-family: 'Koulen', cursive;
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 70px;
+    font-size: 17px;
+}
+.end{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Koulen', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-style: inherit;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    color: #fff;
+}
+.end-two{
+     font-family: 'EB Garamond', serif;
+    font-family: 'Koulen', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-style: inherit;
+    color: hsla(0, 0%, 100%, 0.603);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    font-size: 8px;
+}
+.imagee-img{
+    width: 50%;
+    height: 100%;
+}
+.image img{
+    width: 100% ;
+    height: 23rem;
+    
+}
+.image{
+position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: hsla(277, 68%, 18%, 0.527); 
+}
+

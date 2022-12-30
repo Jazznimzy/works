@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:hsl(10, 58%, 73%) ;
+}
+main{
+    width: 28%;
+    height: 80vh;
+}
+.hero{
+    width: 100%;
+    height: 5rem;
+    background: hsl(10, 79%, 65%);
+    border-radius: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-text{
+    padding-top: .3rem;
+    padding-left: 1rem;
+}
+.logo{
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+section{
+    background: white;
+    border-radius: .3em;
+}
+.body{
+    width: 100%;
+    height: 40vh;
+    margin-top: 1rem;
+}
+
+.header{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 1.5rem;
+}
+.header p{
+    margin: 0;
+}
+.chart{
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+}
+.bar{
+    margin-left: .3rem;
+    margin-top: auto;
+    cursor: pointer;
+    text-align: center;
+    font-size: .8rem;
+}
+.box{
+    width: 2rem;
+    height: 2rem;
+    background:hsl(10, 79%, 65%) ;
+    transition: ease .3s;
+    border-radius: .3em;
+    
+}
+.date{
+    color: hsl(27, 66%, 92%);
+}
+.sun{
+    margin-right: .3rem;
+    
+}
+.chart:hover .mon{
+    height: 3rem;
+}
+.chart:hover .tue{
+    height: 5rem;
+}
+.chart:hover .wed{
+    height: 7rem;
+    background: hsl(186, 34%, 60%);
+}
+.chart:hover .thur{
+    height: 6rem;
+}
+.chart:hover .fri{
+    height: 5rem;
+}
+.chart:hover .sat{
+    height: 4rem;
+}
+.chart:hover .sun{
+    height: 4rem;
+}
+.line{
+    border-top: solid black 1px;
+    width: 90%;
+    margin-left: 1.5rem;
+    background: white;
+    margin-bottom: .5rem;
+}
+footer{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+.month-num{
+
+}
+.total{
+    font-size: .8em;
+    color: grey;
+}
+.num{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.month-percent{
+    margin-top: auto;
+    margin-bottom: .3em;
+    padding-left: 3rem;
+}

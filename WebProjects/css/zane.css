@@ -1,0 +1,939 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: blue;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 7rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 1rem;
+}
+.nav-container{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.logo{
+    width:25%;
+    height: 100%;
+}
+.nav-texts{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.main-nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin-left: auto;
+}
+.nav-texts li{
+    color: #fff;
+    margin: 1rem;
+    list-style: none;
+    font-size: 1.1rem;
+}
+.ml-auto{
+margin-left: auto;
+}
+.Home a{
+    color:rgb(0, 0, 88) ;
+    text-decoration: none;
+}
+.About a{
+    color:rgb(0, 0, 88) ;
+    text-decoration: none;
+}
+.Services a{
+    color:rgb(0, 0, 88) ;
+    text-decoration: none;
+}
+.Contacts a{
+    color:rgb(0, 0, 88) ;
+    text-decoration: none;
+}
+.nav-button{
+    width: 12rem;
+    height: 100%;
+}
+.button-nav{
+    width: 100%;
+    background:rgb(75, 13, 13);
+    height: 3.5rem;
+    border: none;
+    border-radius: 25px;
+    margin: 0;
+}
+.button-text{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+.location{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.appointments{
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 33rem;
+    left: 6.7rem;
+    width: 85%;
+    height: 110vh;
+    border-radius: 20px;
+    padding: 3rem;
+    
+}
+.appointment-con{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.details{
+    width: 60%;
+    height: 100%;
+}
+.details-header{
+    width: 100%;
+    height: 30%;
+}
+.details-header p{
+    margin: 1rem;
+}
+.dh-one{
+    font-size: 1.7rem;
+    color: rgb(14, 14, 71);
+    font-weight: 700;
+}
+.dh-two{
+    color: #abb0b9;
+}
+.inputs{
+    width: 100%;
+    height: 68%;
+}
+.inputs-one{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.services{
+    width: 50%;
+    height: 100%;
+}
+.service-input-one{
+    width: 90%;
+    border-radius: 3rem;
+    height:100% ;
+    border: 2px solid rgb(160, 155, 155);
+    background: white;
+}
+.calendar{
+    font-size: 1rem;
+    color: white;
+}
+.service-icon{
+   color: rgb(141, 134, 134);
+   font-size: 1rem;
+}
+.service-text{
+    color: #abb0b9;
+    font-size: .9rem;
+    padding-left: .7rem;
+}
+.service-con{
+    width: 60%;
+    height: 100%;
+    margin-right: 5rem;
+}
+ .name{
+    height: 100%;
+    width: 90%;
+    border: 1px solid grey;
+    border-radius: 3rem;
+ }
+ 
+ .input-two{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    margin-top: 1rem;
+}
+input::placeholder{
+    padding-left: 3rem;
+}
+.personal-details{
+    height: 95%;
+    width: 50%;
+    position: relative;
+    
+}
+.personal-details-right{
+    height: 95%;
+    width: 50%;
+    position: relative;
+    
+    
+}
+.personal-details i{
+    position: absolute;
+    top: 1.7rem;
+    left: 1rem;
+    color: grey;
+}
+.personal-details-right i{
+    position: absolute;
+    top: 1.7rem;
+    left: 1rem;
+    color: grey;
+}
+.input-three{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 20%;
+    margin-top: 1rem;
+}
+.phone{
+    height: 95%;
+    width: 30%;
+    position: relative;
+}
+.phone i{
+    position: absolute;
+    top:1.7rem;
+    left: 1rem;
+    color: #abb0b9;
+}
+.phone-input{
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    border: 1px solid grey;
+}
+.date{
+    height: 95%;
+    width: 30%;
+    position: relative;
+}
+.date i{
+    position: absolute;
+    top:1.7rem;
+    right: 1.5rem;
+    color: #abb0b9;
+}
+.date-input{
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.time{
+    height: 95%;
+    width: 30%;
+    position: relative;
+}
+.time i{
+    position: absolute;
+    top:1.7rem;
+    right: 1.5rem;
+    color: #abb0b9;
+}
+.time-input{
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.submit{
+    margin-top: 1rem;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.submit-button{
+    width: 90%;
+    height: 90%;
+    border: none;
+    margin: auto;
+    border-radius: 3rem;
+    background: rgb(124, 21, 21);
+    
+}
+.submit-text{
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.quick-contacts{
+    width: 40%;
+    height: 100%;
+    padding: .5rem;
+}
+.qc-con{
+    width: 100%;
+    height: 100%;
+    background-image: url(../IMAGES/background-3181283.jpg);
+    border-radius: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.qc-con-con{
+    width: 100%;
+    height: 100%;
+}
+.qc-con-con p{
+    margin-top: 1rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: .9rem;
+    line-height: 1.5rem;
+    
+}
+.qc-header{
+    margin-left: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family:  'Quicksand', sans-serif;
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+}
+.qc-paragraph{
+    font-size: .9rem;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+.qc-location i{
+    margin-right: .3rem;
+}
+.qc-clock i{
+    margin-right: .3rem;
+}
+.qc-button-div{
+    width: 100%;
+    height: 3.5rem;
+    margin-top: 2rem;
+}
+.qc-button{
+    width: 60%;
+    height: 100%;
+    border-radius: 3rem;
+    border: 2px solid white;
+    background: none;
+}
+.qc-contact-us{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+}
+.qc-bottom{
+    width: 100%;
+    height: 150vh;
+    background: rgb(248, 245, 245);
+}
+.zane-footer{
+    width: 100%;
+    height: 90vh;
+    background: rgb(0, 0, 88);
+    padding: 5rem;
+}
+.footer-top{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between
+}
+.footer-one{
+    margin-top: 2rem;
+    width: 30%;
+    height: 100%;
+
+}
+.fo-one{
+    margin-bottom: 1rem;
+}
+.fo-two{
+    margin-bottom: 2rem;
+    color: #fff;
+    font-size: .9rem;
+    max-width: 80%;
+}
+.fo-three {
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: 700;
+   
+}
+.fo-three a{
+    color: rgb(73, 8, 8);
+    text-decoration: none;
+}
+.footer-two{
+    margin-top: 2rem;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ft-one{
+    width: 40%;
+    height: 100%;
+}
+.fto-one{
+    font-size: 1.3rem;
+    color: #fff;
+    font-family:'Quicksand', sans-serif;
+    margin-bottom: 2rem;
+    margin-left: .7rem;
+}
+.ft-one p{
+    margin: .7rem;
+    font-size: .9rem;
+    color: white;
+}
+.fto-two a{
+    color: #abb0b9;
+}
+.fto-three a{
+    color: #abb0b9;
+}
+.fto-four a{
+    color: #abb0b9;
+}
+.fto-five a{
+    color: #abb0b9;
+}
+.fto-six a{
+    color: #abb0b9;
+}
+.footer-three{
+    width: 30%;
+    height: 100%;
+    background: #fff;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+}
+.fh-one{
+    font-size: 1.1rem;
+    font-family: Quicksand;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: rgb(0, 0, 88);
+}
+.fh-two{
+    font-size: .9rem;
+    max-width: 85%;
+    margin-bottom: 1.5rem;
+    color: rgb(191, 191, 196);
+}
+.fh-three i{
+    font-size: 1.4rem;
+    color: rgb(0, 0, 88);
+    margin-left: .3rem;
+}
+.fh-three{
+    font-size: 1.2rem;
+    max-width: 90%;
+    font-weight: 700;
+    color: rgb(0, 0, 88);    
+    margin-bottom: 1.5rem;
+}
+.fh-four{
+    font-size: .9rem;
+    color: #abb0b9;
+    margin-bottom: 1.5rem;
+}
+.fh-five{
+    display: flex;
+}
+.fh-five a{
+    color: rgb(73, 8, 8);
+    font-size: .9rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+.socials{
+    margin-left: auto;
+}
+.ig a{
+    font-size: 1.5rem;
+    color:rgb(0, 0, 88) ;
+}
+.twitter a{
+    font-size: 1.5rem;
+    color:rgb(0, 0, 88) ;
+}
+.fb a{
+    font-size: 1.5rem;
+    color:rgb(0, 0, 88) ;
+}
+#nav-icon{
+    display: none;
+}
+
+
+@media screen and (max-width: 550px) {
+    .main-nav{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .nav-button{
+        display: none;
+    }
+    #nav-icon{
+        display: block;
+    }
+    .nav-container{
+        width: 100%;
+        height: 100%;
+    }
+    .logo-image{
+        width: 10rem;
+        height: 100%;
+    }
+    .location{
+        height: 50vh;
+        width: 100%;
+    }
+    .appointments{
+        width: 95%;
+        height: 180vh;
+        top: 20rem;
+        left: 1rem;
+        padding: .3rem;
+    }
+    .appointment-con{
+        display: block;
+
+    }
+    .details{
+        width: 100%;
+        height: 110vh;
+    }
+    .details-header{
+        width: 100%;
+        height: 7rem;
+    }
+    .dh-two{
+        font-size: .9rem;
+        font-weight: 880;
+    }
+    .inputs{
+        width: 100%;
+        height: 10vh;
+    }
+    .inputs-one{
+        display: block;
+        height: 9rem;
+        margin-top: 1rem;
+    }
+    .services{
+        width: 100%;
+        height: 42%;
+        margin-bottom: 1rem;
+    }
+    .service-input-one{
+        width: 98%;
+    }
+    .service-con{
+        margin-right: 15rem;
+    }
+    .input-two{
+        display: block;
+        height: 10rem;
+    }
+    .personal-details{
+        width: 100%;
+        height: 42%;
+        margin-top: 1rem;
+    }
+    .personal-details-right{
+        width: 100%;
+        height: 50%;
+        margin-top: 1rem;
+    }
+    .name{
+        width: 98%;
+        height: 87%;
+    }
+    .input-three{
+        display: block;
+        width: 100%;
+        height: 15rem;
+    }
+    .phone{
+        width: 98%;
+        height: 27%;
+    }
+    .date{
+        width: 98%;
+        height: 27%;
+        margin-top: 1rem;
+    }
+    .time{
+        width: 98%;
+        height: 27%;
+        margin-top: 1rem;
+    }
+    .time-input{
+        width: 100%;
+        height: 100%;
+    }
+    .submit{
+        width: 95%;
+        height: 70%;
+    }
+    .quick-contacts{
+        width: 100%;
+        height: 70vh;
+    }
+    .qc-con{
+        padding: .5rem;
+        margin-top: 1rem;
+    }
+    .qc-header{
+        margin: 1rem;
+        font-size: 1rem;
+    }
+    .qc-con-con p{
+        line-height: 1rem;
+    }
+    .qc-button{
+        width: 50%;
+    }
+    .qc-bottom{
+        height: 200vh;
+    }
+    .zane-footer{
+        width: 100%;
+        height: 150vh;
+        padding: .5rem;
+    }
+    .footer-top{
+        display: block;
+    }
+    .footer-one{
+        width: 100%;
+        height: 25%;
+    }
+    .fo-two{
+        line-height: 1.5rem;
+        max-width: 95%;
+        margin-bottom: 1rem;
+    }
+    .footer-two{
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+    .ft-one{
+        width: 100%;
+        height: 50%;
+    }
+    .fto-one{
+        margin-bottom: 1rem;
+    }
+    .footer-three{
+        width: 100%;
+        height: 38%;
+    }
+}
+@media screen and (min-width:550px) and (max-width:990px)  {
+    .main-nav{
+        display: none;
+    }
+    .nav-button{
+        display: none;
+    }
+    .nav-container{
+        width: 100%;
+        height: 100%;
+    }
+    .logo-image{
+        width: 10rem;
+        height: 100%;
+    }
+    .location{
+        height: 60vh;
+        width: 100%;
+    }
+    .appointments{
+        width: 95%;
+        height: 140vh;
+        top: 20rem;
+        left: 1rem;
+        padding: .3rem;
+    }
+    .appointment-con{
+        display: block;
+    }
+    .details{
+    width: 100%;
+    height: 65vh;
+    }
+    .details-header{
+    width: 100%;
+    height: 7rem;
+    }
+    .dh-two{
+    font-size: .9rem;
+    font-weight: 880;
+    }
+    .inputs{
+    width: 100%;
+    height: 10vh;
+    }
+    .inputs-one{
+    display: flex;
+    height:4rem;
+    margin-top: 1rem;
+    }
+    .services{
+        width: 45%;
+        height: 100%;
+        margin-bottom: 1rem;
+    }
+    .service-input-one{
+        width: 98%;
+    }
+    .service-con{
+        margin-right: 15rem;
+    }
+    .input-two{
+        height:4rem;
+    }
+    .personal-details{
+        width: 45%;
+        height: 100%;
+        margin-top: 1rem;
+    }
+    .personal-details i{
+        top: 1.2rem;
+    }
+    .personal-details-right{
+        width: 45%;
+        height: 100%;
+        margin-top: 1rem;
+    }
+    .personal-details-right i{
+        top: 1.2rem;
+    }
+    .name{
+        width: 98%;
+        height: 87%;
+    }
+    .input-three{
+        width: 100%;
+        height:4rem;
+    }
+    .phone{
+        width: 30%;
+        height: 98%;
+        margin-top: 1rem;
+    }
+    .date{
+        width: 30%;
+        height: 98%;
+        margin-top: 1rem;
+    }
+    .time{
+        width: 30%;
+        height: 98%;
+        margin-top: 1rem;
+    }
+    .time-input{
+        width: 100%;
+        height: 100%;
+    }
+    .submit{
+        width: 95%;
+        height: 70%;
+        margin-top: 3rem;
+    }
+    .quick-contacts{
+        width: 100%;
+        height: 60vh;
+    }
+    .qc-con{
+        padding: .5rem;
+    }
+    .qc-header{
+        margin: 1rem;
+    }
+    .qc-con-con p{
+        line-height: 1rem;
+    }
+    .qc-button{
+        width: 50%;
+    }
+    .qc-bottom{
+        height: 140vh;
+    }
+    .zane-footer{
+        width: 100%;
+        height: 120vh;
+        padding: 1.5rem;
+    }
+    .footer-top{
+        display: block;
+    }
+    .footer-one{
+        width: 100%;
+        height: 30%;
+    }
+
+    .fo-two{
+        line-height: 2rem;
+        max-width: 95%;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .fo-three{
+        margin-bottom: 2rem;
+    }
+    .fo-three a{
+        font-size: 1.2rem;
+    }
+    .footer-two{
+        display: flex;
+        width: 100%;
+        height: 30%;
+    }
+    .ft-one{
+        width: 100%;
+        height: 50%;
+    }
+    .fto-one{
+        margin-bottom: 1rem;
+    }
+    .footer-three{
+        width: 100%;
+        height:45%;
+        margin-top: 2rem;
+    }
+    .socials{
+        margin-left: auto;
+    }
+}
+.modal-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    display: flex;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+.modal-active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: visible;
+    display: flex;
+    opacity: 1;
+}
+.modal{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    padding-top: 6rem;
+    padding-left: 1rem;
+    
+}
+.modal-texts li{
+    list-style: none;
+    padding-top: 1rem;
+    color:rgb(0, 0, 88) ;
+
+}
+.modal-exit{
+margin-left: 10rem;
+margin-top: 6rem;
+}
+.pop-modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    
+    display: none;
+    
+}
+.pop-up{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pop-modal{
+    width: 15rem;
+    height: 10rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+}
+.subscribe-modal-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+    display: non;
+    
+}
+.subscribe-modal{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+    position: fixed;
+}

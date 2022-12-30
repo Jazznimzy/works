@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+body{
+    font-family: 'Roboto', 'sans-serif';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; background: rgb(226, 168, 183)
+    ;
+}
+form{
+    width: 40%;
+    height: 80vh;
+    background: rgb(197, 236, 179);
+    border-radius: .5rem;
+}
+div{
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+label{
+    display: block;
+    font-size: 1.2rem;
+}
+#name{
+    width: 16rem;
+    height: 1.5rem;
+}
+#email{
+    width: 16rem;
+    height: 1.5rem;
+}
+#contact{
+    width: 16rem;
+    height: 1.5rem;
+}
+button{
+    width: 13rem;
+    height: 2.5rem;
+    border: none;
+    background: greenyellow;
+    border-radius: .3rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.show{
+    width: 25rem;
+    height: 20rem;
+    background: red;
+    visibility: hidden;
+    padding: 2rem;
+    
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.show-div{
+    border-radius: 2rem;
+    background:black;
+}

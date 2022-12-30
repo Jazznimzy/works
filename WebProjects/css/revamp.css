@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.body{
+    background: rgba(255, 135, 78, 0.56);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 7rem;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+.content-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description{
+    width: 50%;
+}
+.description-header{
+    color: #f2f2f2 ;
+    font-size: 2.6rem;
+    font-weight: 800;
+}
+.description-text{
+    font-size: .8 rem;
+    color: #f2f2f2 ;
+    padding-top: 1rem;
+}
+.sign-up{
+    width: 40%;
+}
+.top-sign-up-button button{
+    width: 100%;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    background: hsl(248, 32%, 49%);
+    cursor: pointer;
+    color: white;
+}
+.sign-up-form{
+    height: 100%;
+    width: 100%;
+    background:white ;
+    margin-top: 1rem;
+    border-radius: .8rem;
+    padding: 1rem;
+}
+.input-content{
+    margin: 1rem;
+    width: 85%;
+    height: 2.5rem;
+    border-radius: .4rem;
+    padding: .8rem;
+    padding-left: 2rem;
+    border: 1px solid hsl(246, 25%, 77%);
+    font-size: .7rem;
+
+}
+.bottom-sign-up-button button{
+    width: 100%;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    background: hsl(154, 59%, 51%);
+    cursor: pointer;
+    font-weight:600 ;
+    color: #f2f2f2;
+}
+.footer{
+    padding-top: .5rem;
+    font-size: .7rem;
+    display: flex;
+}
+.footer p a{
+    color: red;
+    text-decoration: none;
+}
+
+.data-section.error input{
+    margin: 1rem;
+    width: 85%;
+    height: 2.5rem;
+    border-radius: .4rem;
+    padding-left: 2rem;
+    border:3px solid hsl(0, 100%, 51%);
+    font-size: .7rem;
+}
+.error-text{
+    color: #f33939;
+    text-align: right;
+    font-weight: 600;
+    font-size: .6rem;
+    visibility: hidden;
+}
+.data-section.error .error-text{
+  visibility: visible;
+}

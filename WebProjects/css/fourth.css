@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700&family=EB+Garamond&family=Koulen&family=Lexend+Deca&family=Outfit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700&family=EB+Garamond&family=Koulen&family=Lexend+Deca&family=Outfit:wght@100&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: hsla(0, 0%, 100%, 0.404);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container{
+    width: 55%;
+    height: 23rem;
+    border-radius: 10px;
+    display: flex; 
+}
+.sedans{
+    width: 33%;
+    height: 100%;
+    background:hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+    
+}
+.sedan-m p{
+    margin: 20px;
+}
+.sedan-header{
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Koulen', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-style: inherit;
+    font-weight: 700;
+    font-size: 25px;
+    color: hsl(0, 0%, 95%);
+}
+.sedan-paragraph{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Big Shoulders Display', cursive;
+}
+.button button{
+    background: hsl(0, 0%, 95%);
+    width: 6rem;
+    height: 2rem;
+    border-radius: 18px;
+    margin-top: 20px;
+}
+.button-text{
+    color:  hsl(31, 77%, 52%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+    .suvs{
+        width: 33%;
+        height: 100%;
+        background:hsl(184, 100%, 22%);
+        padding: 20px;
+        
+    }
+    .suvs-m p{
+        margin: 20px;
+    }
+    .suv-header{
+        font-family: 'Big Shoulders Display', cursive;
+        font-family: 'EB Garamond', serif;
+        font-family: 'Koulen', cursive;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Outfit', sans-serif;
+        font-style: inherit;
+        font-weight: 700;
+        font-size: 25px;
+        color: hsl(0, 0%, 95%);
+    }
+    .suv-paragraph{
+        font-size: 15px;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    .button-suv button{
+        background: hsl(0, 0%, 95%);
+        width: 6rem;
+        height: 2rem;
+        border-radius: 18px;
+        margin-top: 20px;
+    }
+    .button-suv-text{
+        color:  hsl(184, 100%, 22%);
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    .luxury{
+        width: 34%;
+        height: 100%;
+        background:hsl(179, 100%, 13%);
+        padding: 20px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .luxury-m p{
+        margin: 20px;
+    }
+    .luxury-header{
+        font-family: 'Big Shoulders Display', cursive;
+        font-family: 'EB Garamond', serif;
+        font-family: 'Koulen', cursive;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Outfit', sans-serif;
+        font-style: inherit;
+        font-weight: 700;
+        font-size: 25px;
+        color: hsl(0, 0%, 95%);
+    }
+    .luxury-paragraph{
+        font-size: 15px;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    .button-luxury button{
+        background: hsl(0, 0%, 95%);
+        width: 6rem;
+        height: 2rem;
+        border-radius: 18px;
+        margin-top: 20px;
+    }
+    .button-luxury-text{
+        color:  hsl(179, 100%, 13%);
+        font-family: 'Big Shoulders Display', cursive;
+    }

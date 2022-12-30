@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0 ;
+}
+.pageContainer{
+    width: 18rem;
+    margin: 0 auto;
+}
+.gameGrid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 12rem;
+    width: 100%;
+    border: 1px solid;
+}
+.gameGrid img{
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: .5em;
+}

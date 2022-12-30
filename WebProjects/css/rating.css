@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    width: 60%;
+    height: 80vh;
+    background: rgb(177, 109, 109);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.ratings{
+    width: 90%;
+    height: 4rem;
+    background: rgb(48, 48, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle{
+    width: 3rem;
+    height: 3rem;
+    background: black;
+    margin-right: 2rem;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.circle.rated{
+    background: yellow;
+}
